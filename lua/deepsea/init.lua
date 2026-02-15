@@ -30,6 +30,7 @@ end
 g.Normal = { fg = murky, bg = deep }
 
 g.Cursor = { bg = tired_light }
+g.lCursor = g.Cursor
 g.iCursor = g.Cursor
 g.rCursor = g.Cursor
 
@@ -54,6 +55,7 @@ g["@lsp.mod.declaration"] = { fg = searchlight, italic = true }
 g.Visual = { fg = g.Normal.bg, bg = g.Normal.fg }
 g.Search = { fg = light, bold = true }
 g.IncSearch = g.Search
+g.CurSearch = g.Search
 g.LineNr = extend(g.Comment, { italic = true })
 g.CursorLineNr = extend(g.LineNr, { bold = true })
 g.ColorColumn = { bg = deeper }
@@ -104,9 +106,13 @@ g.BufferLineDuplicate = g.BufferLineBackground
 g.ErrorMsg = g.Error
 g.WarningMsg = g.Warning
 g.DiagnosticError = g.Error
+g.DiagnosticUnderlineError = g.Error
 g.DiagnosticWarn = g.Warning
+g.DiagnosticUnderlineWarn = g.Warning
 g.DiagnosticInfo = g.Info
+g.DiagnosticUnderlineInfo = g.Info
 g.DiagnosticHint = g.Hint
+g.DiagnosticUnderlineHint = g.Hint
 
 g.DiffAdd = g.Added
 g.DiffChange = g.Changed
