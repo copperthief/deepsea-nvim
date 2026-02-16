@@ -64,7 +64,6 @@ g.VertSplit = g.WinSeparator
 
 g.Underlined = { underdotted = true }
 
-g.Error = { fg = coral_heart }
 g.Warning = { fg = heat }
 g.Info = g.Comment
 g.Hint = g.Comment
@@ -103,10 +102,7 @@ g.BufferLineModifiedSelected = g.BufferLineBufferSelected
 g.BufferLineModifiedVisible = g.BufferLineBackground
 g.BufferLineDuplicate = g.BufferLineBackground
 
-g.ErrorMsg = g.Error
 g.WarningMsg = g.Warning
-g.DiagnosticError = g.Error
-g.DiagnosticUnderlineError = g.Error
 g.DiagnosticWarn = g.Warning
 g.DiagnosticUnderlineWarn = g.Warning
 g.DiagnosticInfo = g.Info
@@ -118,6 +114,10 @@ g.DiffAdd = g.Added
 g.DiffChange = g.Changed
 g.DiffDelete = g.Removed
 
+g.Error = { fg = coral_heart }
+g.ErrorMsg = g.Error
+g.DiagnosticError = g.Error
+g.DiagnosticUnderlineError = g.Error
 
 local M = {}
 
