@@ -62,7 +62,7 @@ g.ColorColumn = { bg = deeper }
 g.WinSeparator = g.Comment
 g.VertSplit = g.WinSeparator
 
-g.Underlined = { underdotted = true }
+g.Underlined = { underdashed = true }
 
 g.Error = { fg = coral_heart }
 g.Warning = { fg = heat }
@@ -106,13 +106,13 @@ g.BufferLineDuplicate = g.BufferLineBackground
 g.ErrorMsg = g.Error
 g.WarningMsg = g.Warning
 g.DiagnosticError = g.Error
-g.DiagnosticUnderlineError = g.Error
+g.DiagnosticUnderlineError = { underdashed = true, guisp = g.Error.fg }
 g.DiagnosticWarn = g.Warning
-g.DiagnosticUnderlineWarn = g.Warning
+g.DiagnosticUnderlineWarn = { underdashed = true, guisp = g.Warning.fg }
 g.DiagnosticInfo = g.Info
-g.DiagnosticUnderlineInfo = g.Info
+g.DiagnosticUnderlineInfo = { underdashed = true, guisp = g.Info.fg }
 g.DiagnosticHint = g.Hint
-g.DiagnosticUnderlineHint = g.Hint
+g.DiagnosticUnderlineHint = { underdashed = true, guisp = g.Hint.fg }
 
 g.DiffAdd = g.Added
 g.DiffChange = g.Changed
