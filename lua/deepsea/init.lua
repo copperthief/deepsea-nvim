@@ -106,13 +106,13 @@ g.BufferLineDuplicate = g.BufferLineBackground
 g.ErrorMsg = g.Error
 g.WarningMsg = g.Warning
 g.DiagnosticError = g.Error
-g.DiagnosticUnderlineError = { underdashed = true, guisp = g.Error.fg }
+g.DiagnosticUnderlineError = { underdashed = true, sp = g.Error.fg }
 g.DiagnosticWarn = g.Warning
-g.DiagnosticUnderlineWarn = { underdashed = true, guisp = g.Warning.fg }
+g.DiagnosticUnderlineWarn = { underdashed = true, sp = g.Warning.fg }
 g.DiagnosticInfo = g.Info
-g.DiagnosticUnderlineInfo = { underdashed = true, guisp = g.Info.fg }
+g.DiagnosticUnderlineInfo = { underdashed = true, sp = g.Info.fg }
 g.DiagnosticHint = g.Hint
-g.DiagnosticUnderlineHint = { underdashed = true, guisp = g.Hint.fg }
+g.DiagnosticUnderlineHint = { underdashed = true, sp = g.Hint.fg }
 
 g.DiffAdd = g.Added
 g.DiffChange = g.Changed
