@@ -113,6 +113,7 @@ g.DiagnosticInfo = g.Info
 g.DiagnosticUnderlineInfo = { underdashed = true, sp = g.Info.fg }
 g.DiagnosticHint = g.Hint
 g.DiagnosticUnderlineHint = { underdashed = true, sp = g.Hint.fg }
+g.DiagnosticUnnecessary = { underdashed = true, sp = g.Hint.fg }
 
 g.DiffAdd = g.Added
 g.DiffChange = g.Changed
